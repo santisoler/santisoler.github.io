@@ -139,6 +139,12 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
 # Plugins
 plugins:
   - jekyll-paginate
@@ -155,9 +161,10 @@ whitelist:
   - jekyll-feed
   - jemoji
 
-
+# Include
 include:
   - _pages
+  - _posts
 
 # Scripts
 # head_scripts:
