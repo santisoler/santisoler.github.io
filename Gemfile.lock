@@ -103,9 +103,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll-feed (~> 0.6)
+  jekyll (~> 3.5)
   minimal-mistakes-jekyll
-  tzinfo-data
 
 BUNDLED WITH
    1.16.1
