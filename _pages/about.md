@@ -17,15 +17,15 @@ with the support of scholarship provided by [CONICET].
 I'm a longtime GNU/Linux user, mainly of the [Debian] distribution, and
 a Software Libre supporter.
 If you haven't ever heard of Software Libre or don't precisely know what
-it is, I encourage you to read the 
-[Wikipedia entry about Free Software][wiki-free-soft] and 
+it is, I encourage you to read the
+[Wikipedia entry about Free Software][wiki-free-soft] and
 further the [Free Software Foundation documentation][fsf-docs].
 
-I am contributing with the [Fatiando a Terra](http://www.fatiando.org), 
-Python library for geophysical modeling and inversion, released under Software 
-Libre license. I encourage every scientist to leave proprietary software 
-behind and start using Free Software on their every-day work in order to build 
-a more open and reproducible science and promote the interaction and 
+I'm also a [Fatiando a Terra](http://www.fatiando.org) contributor, a
+Python library for geophysical modeling and inversion, released under a Software
+Libre license. I encourage every scientist to leave proprietary software
+behind and start using Free Software on their every-day work in order to build
+a more open and reproducible science and promote the interaction and
 collaboration between scientists form all around the world.
 
 I'm also really into:
