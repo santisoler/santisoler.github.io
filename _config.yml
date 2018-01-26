@@ -97,8 +97,8 @@ tracking_id          :
 # Site Author
 author:
   name             : "Santiago Soler"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Free Software enthusiast."
+  avatar           : "/assets/images/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "I'm a Lic. in Physics, doing my PhD in Geophysics in IGSV, San Juan, Argentina. Also a Free Software enthusiast who loves spending time outdoors"
   location         : "Argentina"
   email            : "santiago.r.soler@gmail.com"
   uri              :
@@ -121,7 +121,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
+  twitter          : "s4ntis19"
   vine             :
   weibo            :
   xing             :
