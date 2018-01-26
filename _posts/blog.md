@@ -4,7 +4,8 @@ layout: archive
 permalink: /blog/
 author_profile: true
 comments: false
-theme:
+header:
+  image: /assets/images/blog/frozen-stream.jpg
 ---
 
 {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'"  %}
