@@ -14,8 +14,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# If you want to run this web as a ruby-gem, uncomment the 'theme: ...' line
+# and comment the 'remote_theme' one.
+# If otherwise you want to publish it in Github Pages, do otherwise.
+# Also some changes in Gemfile are needed
+
+
+# Load theme
+# ----------
 # theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes"
+
 
 # -------------------------
 # Minimal Mistakes Settings
@@ -67,11 +76,13 @@ atom_feed:
 search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
+
 
 # Social Sharing
 twitter:
@@ -88,11 +99,13 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
+
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider: false # false (default), "google", "google-universal", "custom"
   google:
-tracking_id          :
+tracking_id:
+
 
 # Site Author
 author:
@@ -127,6 +140,7 @@ author:
   xing             :
 youtube          : # "https://youtube.com/c/MichaelRoseDesign"
 
+
 # Markdown Processing
 kramdown:
   input: GFM
@@ -138,11 +152,13 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
 
 # Plugins
 plugins:
@@ -152,6 +168,7 @@ plugins:
   - jekyll-feed
   - jemoji
 
+
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -160,15 +177,11 @@ whitelist:
   - jekyll-feed
   - jemoji
 
+
 # Include
 include:
   - _pages
   - _posts
-
-# Scripts
-# head_scripts:
-#   - https://code.jquery.com/jquery-3.2.1.min.js
-
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -181,3 +194,60 @@ include:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+
+
+# Scripts
+#head_scripts:
+#  - https://code.jquery.com/jquery-3.2.1.min.js
+
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+envs: development

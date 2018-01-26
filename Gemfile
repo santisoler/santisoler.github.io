@@ -11,8 +11,14 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 3.5"
 
-gem "github-pages", group: :jekyll_plugins
+# If you want to run this web as a ruby-gem, uncomment the
+# 'gem "minimal-mistakes-jekyll' line  and comment the
+# 'gem "github-pages" ...' one.
+# If otherwise you want to publish it in Github Pages, do otherwise.
+# Also some changes in _config.yml are needed
+
 # gem "minimal-mistakes-jekyll"
+gem "github-pages", group: :jekyll_plugins
 
 # To upgrade, run `bundle update`.
 
