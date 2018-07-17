@@ -7,6 +7,7 @@ author_profile: true
 toc: false
 header:
   image: /assets/images/about/frozen-stream-and-rock.jpg
+  caption: "Frozen stream"
 ---
 
 I'm a Lic. in Physics, got my degree at the Universidad Nacional de Rosario,
