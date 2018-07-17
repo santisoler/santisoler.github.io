@@ -36,7 +36,7 @@ I'm also really into:
   * Python programming language
   * Git (simply lifesaver)
   * LaTeX (best texts you'll ever produce)
-  * Outdoor sports (hiking, rock climbing, biking, kayaking, etc)
+  * Outdoors sports (hiking, rock climbing, biking, kayaking, etc)
 
 
 ## Education
@@ -53,6 +53,7 @@ I'm also really into:
   * CONICET Scholarship
 
 
+[fcefn]: https://exactas.unsj.edu.ar/
 [unsj]: http://www.unsj.edu.ar/
 [igsv]: http://igsv.unsj.edu.ar/
 [CONICET]: http://www.conicet.gov.ar/
