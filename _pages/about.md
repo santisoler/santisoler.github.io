@@ -25,7 +25,7 @@ it is, I encourage you to read the
 [Wikipedia entry about Free Software][wiki-free-soft] and
 further the [Free Software Foundation documentation][fsf-docs].
 
-I'm also a [Fatiando a Terra](http://www.fatiando.org) contributor, a
+I'm a [Fatiando a Terra](http://www.fatiando.org) contributor, a
 Python library for geophysical modeling and inversion, released under a
 Software Libre license. I encourage every scientist to leave proprietary
 software behind and start using Free Software on their every-day work in order
