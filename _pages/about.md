@@ -14,7 +14,11 @@ Argentina. Now I'm doing my Phd in Geophysics at the [Universidad Nacional
 de San Juan][unsj] in the [Instituto Geofísico Sismológico Volponi][igsv],
 with the support of scholarship provided by [CONICET].
 
-I'm a longtime GNU/Linux user, mainly of the [Debian] distribution, and
+I'm currently teaching Statistical Mechanics and Physics for Astronomy and 
+Geophysics at the [Facultad de Ciencias Exactas, Físicas y Naturales][fcefn],
+[UNSJ][unsj].
+
+Longtime GNU/Linux user, mainly of the [Debian] distribution, and
 a Software Libre supporter.
 If you haven't ever heard of Software Libre or don't precisely know what
 it is, I encourage you to read the
@@ -22,17 +26,17 @@ it is, I encourage you to read the
 further the [Free Software Foundation documentation][fsf-docs].
 
 I'm also a [Fatiando a Terra](http://www.fatiando.org) contributor, a
-Python library for geophysical modeling and inversion, released under a Software
-Libre license. I encourage every scientist to leave proprietary software
-behind and start using Free Software on their every-day work in order to build
-a more open and reproducible science and promote the interaction and
+Python library for geophysical modeling and inversion, released under a
+Software Libre license. I encourage every scientist to leave proprietary
+software behind and start using Free Software on their every-day work in order
+to build a more open and reproducible science and promote the interaction and
 collaboration between scientists form all around the world.
 
 I'm also really into:
   * Python programming language
   * Git (simply lifesaver)
   * LaTeX (best texts you'll ever produce)
-  * Outside sports (hiking, rock climbing, biking, kayaking, etc)
+  * Outdoor sports (hiking, rock climbing, biking, kayaking, etc)
 
 
 ## Education
