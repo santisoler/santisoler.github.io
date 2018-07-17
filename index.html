@@ -1,7 +1,35 @@
 ---
-layout: home
+layout: splash
 author_profile: true
+
 header:
   image: /assets/images/home/ansilta.jpg
+
+
+feature_row:
+
+  - image_path: assets/images/home/cython-code.jpg
+    alt: "placeholder image 2"
+    title: "Research"
+    excerpt: "Geophysics, Software Libre and more."
+    url: "/research/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+  - image_path: assets/images/home/particles.gif
+    alt: "placeholder image 1"
+    title: "Teaching"
+    excerpt: "Mechanical Statistics and Physics"
+    url: "/teaching/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+  - image_path: assets/images/home/climbing.jpg
+    title: "About Me"
+    url: "/about/"
+    excerpt: "Lic in Physics, PhD candidate in Geophysics ..."
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
+{% include feature_row %}
