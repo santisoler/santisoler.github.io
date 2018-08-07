@@ -5,6 +5,19 @@ title: "Research"
 author_profile: true
 toc: false
 
+gianni2018:
+  - image_path: /assets/images/papers/gianni2018.jpg
+    title: "Transient plate contraction between two simultaneous slab windows:
+            Insights from Paleogene tectonics of the Patagonian Andes"
+    excerpt: "Gianni, G.M.; Pesce, A.; Soler, S.R. (2018)<br />
+              Instituto Geofísico Sismológico Ing. Volponi,
+              Universidad Nacional de San Juan, CONICET, Argentina <br />
+              Published on *Journal of Geodynamics* <br />
+              doi: 10.1016/j.jog.2018.07.008"
+    url: "/research/gianni2018"
+    btn_label: "Read More"
+    btn_class: "btn--primary"   
+    
 fatiando:
   - image_path: https://raw.githubusercontent.com/fatiando/logo/master/fatiando-logo.png
     title: "Fatiando a Terra"
@@ -20,6 +33,10 @@ fatiando:
 My PhD research involves new geophysical methodologies for potential fields 
 and inversion theories. All software developed in our research will be freely 
 available under Software Libre licenses.
+
+## Peer-Reviewed Papers
+
+{% include feature_row id="gianni2018" type="left" %}
 
 ## Contributions
 
