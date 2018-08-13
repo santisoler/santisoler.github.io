@@ -54,11 +54,17 @@ of the Patagonian Andes, Journal of Geodynamics, doi: 10.1016/j.jog.2018.07.008
 ### BibTeX entry
 ```
 @Article{Gianni2018,
-  author        = {Gianni, GM and Pesce, A and Soler, SR},
+  author        = {G.M. Gianni and A. Pesce and S.R. Soler},
   title         = {Transient plate contraction between two simultaneous slab windows: Insights from Paleogene tectonics of the Patagonian Andes},
   journal       = {Journal of Geodynamics},
   year          = {2018},
-  doi           = {10.1016/j.jog.2018.07.008},
   publisher     = {Elsevier},
+  volume        = {121},
+  pages         = {64 - 75},
+  year          = {2018},
+  issn          = {0264-3707},
+  doi           = {https://doi.org/10.1016/j.jog.2018.07.008},
+  doi           = {10.1016/j.jog.2018.07.008},
+  keywords      = {Slab-window, Midocean ridge-trench interaction, Intraplate contraction, Intraplate magmatism}
 }
 ```
