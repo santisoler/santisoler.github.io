@@ -23,7 +23,7 @@
 # Load theme
 # ----------
 # theme: minimal-mistakes-jekyll
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes@4.12.1"
 
 
 # -------------------------
