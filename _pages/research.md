@@ -5,6 +5,18 @@ title: "Research"
 author_profile: true
 toc: false
 
+
+soler2018:
+  - image_path: /assets/images/papers/soler2018.png
+    title: "Gravity fields calculation in spherical coordinates using
+            tesseroids with variable density"
+    excerpt: "Soler, SR; Pesce, A.; Uieda, L.; Gimenez, M.E. (2018)<br />
+              This article is currently undergoing peer-review at
+              Geophysical Journal International.{: .notice--warning}"
+    url: "/research/soler2018"
+    btn_label: "Read More"
+    btm_class: "btn-primary"
+
 gianni2018:
   - image_path: /assets/images/papers/gianni2018.jpg
     title: "Transient plate contraction between two simultaneous slab windows:
@@ -16,8 +28,8 @@ gianni2018:
               doi: 10.1016/j.jog.2018.07.008"
     url: "/research/gianni2018"
     btn_label: "Read More"
-    btn_class: "btn--primary"   
-    
+    btn_class: "btn--primary"
+
 fatiando:
   - image_path: https://raw.githubusercontent.com/fatiando/logo/master/fatiando-logo.png
     title: "Fatiando a Terra"
@@ -30,12 +42,13 @@ fatiando:
 
 ---
 
-My PhD research involves new geophysical methodologies for potential fields 
-and inversion theories. All software developed in our research will be freely 
+My PhD research involves new geophysical methodologies for potential fields
+and inversion theories. All software developed in our research will be freely
 available under Software Libre licenses.
 
 ## Peer-Reviewed Papers
 
+{% include feature_row id="soler2018" type="left" %}
 {% include feature_row id="gianni2018" type="left" %}
 
 ## Contributions
