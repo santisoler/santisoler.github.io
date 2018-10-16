@@ -7,10 +7,10 @@ toc: false
 
 
 soler2018:
-  - image_path: /assets/images/papers/soler2018.png
+  - image_path: /assets/images/papers/soler2018.jpg
     title: "Gravity fields calculation in spherical coordinates using
             tesseroids with variable density"
-    excerpt: "Soler, SR; Pesce, A.; Uieda, L.; Gimenez, M.E. (2018)<br />
+    excerpt: "Soler, S.R.; Pesce, A.; Uieda, L.; Gimenez, M.E. (2018)<br />
               This article is currently undergoing peer-review at
               Geophysical Journal International.{: .notice--warning}"
     url: "/research/soler2018"
