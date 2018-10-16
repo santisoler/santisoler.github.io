@@ -14,11 +14,13 @@ CONICET, Argentina <br />
 Department of Earth Sciences, SOEST, University of Hawai‘i at Mānoa,
 Honolulu, Hawaii, USA
 
+**This article is currently undergoing peer-review at
+Geophysical Journal International**
+{: .text-center}
+{: .notice--primary}
+
 
 ## Information
-
-This article is currently undergoing peer-review at
-Geophysical Journal International.{: .notice--warning}
 
 * Journal: *Geophysics Journal International*
 * DOI: [10.1016/j.jog.2018.07.008](https://doi.org/10.1016/j.jog.2018.07.008)
