@@ -23,7 +23,6 @@ Geophysical Journal International**
 ## Information
 
 * Journal: *Geophysics Journal International*
-* DOI: [10.1016/j.jog.2018.07.008](https://doi.org/10.1016/j.jog.2018.07.008)
 * Source code:
   [pinga-lab/tesseroid-variable-density](https://www.github.com/pinga-lab/tesseroid-variable-density)
 * [Download PDF](/assets/papers/soler2018.pdf){: .btn .btn--primary .btn--large}
