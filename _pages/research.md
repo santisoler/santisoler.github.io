@@ -15,7 +15,7 @@ soler2018:
               Geophysical Journal International.{: .notice--warning}"
     url: "/research/soler2018"
     btn_label: "Read More"
-    btm_class: "btn--primary"
+    btn_class: "btn--primary"
 
 gianni2018:
   - image_path: /assets/images/papers/gianni2018.jpg
