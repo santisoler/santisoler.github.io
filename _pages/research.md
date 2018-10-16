@@ -12,7 +12,7 @@ soler2018:
             tesseroids with variable density"
     excerpt: "Soler, S.R.; Pesce, A.; Uieda, L.; Gimenez, M.E. (2018)<br />
               This article is currently undergoing peer-review at
-              Geophysical Journal International.{: .notice--warning}"
+              Geophysical Journal International."
     url: "/research/soler2018"
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -48,6 +48,8 @@ available under Software Libre licenses.
 
 ## Peer-Reviewed Papers
 
+This article is currently undergoing peer-review at Geophysical Journal
+International.{: .notice--warning}
 {% include feature_row id="soler2018" type="left" %}
 {% include feature_row id="gianni2018" type="left" %}
 
