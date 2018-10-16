@@ -10,7 +10,7 @@ toc: false
 Mario E. Gimenez (2018) <br />
 Instituto Geofísico Sismológico Ing. Volponi,
 Universidad Nacional de San Juan, Argentina <br />
-CONICET, Argentina
+CONICET, Argentina <br />
 Department of Earth Sciences, SOEST, University of Hawai‘i at Mānoa,
 Honolulu, Hawaii, USA
 
@@ -22,11 +22,9 @@ Geophysical Journal International.{: .notice--warning}
 
 * Journal: *Geophysics Journal International*
 * DOI: [10.1016/j.jog.2018.07.008](https://doi.org/10.1016/j.jog.2018.07.008)
-* Visit our
-  [repo at GitHub](https://www.github.com/pinga-lab/tesseroid-variable-density)
+* Source code:
+  [pinga-lab/tesseroid-variable-density](https://www.github.com/pinga-lab/tesseroid-variable-density)
 * [Download PDF](/assets/papers/soler2018.pdf){: .btn .btn--primary .btn--large}
-
-![image-center](/assets/images/papers/soler2018_abstract.jpg){: .align-center}
 
 
 ## Abstract
@@ -54,6 +52,7 @@ be used for the Marussi tensor components. Lastly, we apply this new methodology
 to model the Neuquén Basin, a foreland basin in Argentina with a maximum depth
 of over 5000 m, using an exponential density function.
 
+![image-center](/assets/images/papers/soler2018_abstract.jpg){: .align-center}
 
 <!--## Cite us-->
 
