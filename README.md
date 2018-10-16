@@ -3,10 +3,11 @@
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
 This repo contains my personal website. It is developed in
-[Jekyll](https://jekyllrb.com/), hosted 
-by [GitHub Pages](https://pages.github.com/) and built upon [Minimal 
-Mistakes](https://mmistakes.github.io/minimal-mistakes/) who aids anyone to 
-create its own personal website without learning CSS nor HTML.
+[Jekyll](https://jekyllrb.com/), hosted
+by [GitHub Pages](https://pages.github.com/) and built upon
+[Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/)
+who aids anyone to create its own personal website without
+learning CSS nor HTML.
 
 ## How to run it locally
 
@@ -18,6 +19,8 @@ Or download it from
 [here](https://github.com/santis19/santis19.github.io/archive/master.zip).
 
 ### Install dependencies
+
+#### Debian 9
 
 First install ruby development environment and essential tools for building:
 
@@ -41,6 +44,26 @@ Go to the cloned repo:
 And run `bundle install` or use the Makefile targets:
 
     make install
+
+### Manjaro
+
+Install ruby:
+
+    sudo pacman -S ruby
+
+Add the following lines to your `.bashrc` or to you specific `bash`
+configuration files:
+
+    PATH="$PATH:$(ruby -e 'print Gem.user_dir')/bin"
+    export GEM_HOME=$HOME/.gem
+
+These allows your user to install and run gems without inserting the full
+location.
+
+Then run:
+
+    make install
+
 
 ### Start serving the website
 
