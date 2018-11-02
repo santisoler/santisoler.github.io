@@ -5,9 +5,6 @@ title: "About Me"
 excerpt: "About Me"
 author_profile: true
 toc: false
-header:
-  image: /assets/images/about/frozen-stream-and-rock.jpg
-  caption: "Frozen stream"
 ---
 
 I'm a Lic. in Physics, got my degree at the Universidad Nacional de Rosario,
@@ -15,7 +12,7 @@ Argentina. Now I'm doing my Phd in Geophysics at the [Universidad Nacional
 de San Juan][unsj] in the [Instituto Geofísico Sismológico Volponi][igsv],
 with the support of scholarship provided by [CONICET].
 
-I'm currently teaching Statistical Mechanics and Physics for Astronomy and 
+I'm currently teaching Statistical Mechanics and Physics for Astronomy and
 Geophysics at the [Facultad de Ciencias Exactas, Físicas y Naturales][fcefn],
 [UNSJ][unsj].
 
