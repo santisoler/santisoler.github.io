@@ -120,7 +120,7 @@ analytics:
 author:
   name             : "Santiago Soler"
   avatar           : "/assets/images/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Lic in Physics <br /> Doing PhD in Geophysics <br /> Software Libre enthusiast"
+  bio              : "Lic in Physics <br /> PhD Student in Geophysics <br /> Software Libre enthusiast"
   location         : "Argentina"
   email            : # "santiago.r.soler@gmail.com"
   links:
