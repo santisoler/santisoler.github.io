@@ -31,7 +31,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.13.0"
 # -------------------------
 minimal_mistakes_skin   : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 locale                  : "en-US"
-title                   : Santiago Soler
+title                   : "Santiago Soler"
 title_separator         : "|"
 name                    : "Santiago Soler"
 description             : "My personal website"
