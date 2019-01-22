@@ -16,29 +16,29 @@ CONICET, Argentina
 
 * Published on *Journal of Geodynamics* <br />
 * DOI: [10.1016/j.jog.2018.07.008](https://doi.org/10.1016/j.jog.2018.07.008)
-* Download the [Kinematic Gplates Model](https://www.github.com/santis19/paper-plate-contraction-patagonia)
+* Download the [Kinematic Gplates Model](https://www.github.com/santisoler/paper-plate-contraction-patagonia)
 * [Download PDF](/assets/papers/gianni2018.pdf){: .btn .btn--primary .btn--large}
 
 
 ## Abstract
 
-Plate kinematic reconstructions show that the Farallon-Phoenix (Aluk) 
-spreading center subducted under South America sometime between the Late 
-Cretaceous and the Paleogene periods. Geological studies have supported a 
-ridge-trench interaction in Patagonia during Paleocene to Eocene times mostly 
-based on the documentation of slab window magmatism and Andean arc-quiescence. 
-However, a revision of most recent works dealing with the Paleogene tectonic 
-evolution of Central Patagonia between 39 °S to 50 °S highlights 
-inconsistencies in this model. Particularly, the existence of two discrete 
-areas with simultaneous slab window-related magmatism separated by a sector 
-with plate-wide contraction, along with a spatio-temporal mismatch between 
-magmatism location and ridge kinematics, preclude a single ridge-trench 
-interaction. With the purpose to better understand this complex tectonic 
-setting, we integrated this updated geological evolution into a plate 
-kinematic model. We propose that the oblique collision of a segmented 
-Farallon-Phoenix/Aluk mid-ocean ridge would explain the latitudinally vari- 
-able tectonomagmatic evolution of Patagonia during early Paleogene times. 
-Finally, this work adds resolution to geodynamic processes in active margins 
+Plate kinematic reconstructions show that the Farallon-Phoenix (Aluk)
+spreading center subducted under South America sometime between the Late
+Cretaceous and the Paleogene periods. Geological studies have supported a
+ridge-trench interaction in Patagonia during Paleocene to Eocene times mostly
+based on the documentation of slab window magmatism and Andean arc-quiescence.
+However, a revision of most recent works dealing with the Paleogene tectonic
+evolution of Central Patagonia between 39 °S to 50 °S highlights
+inconsistencies in this model. Particularly, the existence of two discrete
+areas with simultaneous slab window-related magmatism separated by a sector
+with plate-wide contraction, along with a spatio-temporal mismatch between
+magmatism location and ridge kinematics, preclude a single ridge-trench
+interaction. With the purpose to better understand this complex tectonic
+setting, we integrated this updated geological evolution into a plate
+kinematic model. We propose that the oblique collision of a segmented
+Farallon-Phoenix/Aluk mid-ocean ridge would explain the latitudinally vari-
+able tectonomagmatic evolution of Patagonia during early Paleogene times.
+Finally, this work adds resolution to geodynamic processes in active margins
 where complex midocean ridge-trench interactions take place.
 
 ![image-center](/assets/images/papers/gianni2018_abstract.jpg){: .align-center}

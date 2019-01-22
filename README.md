@@ -13,10 +13,10 @@ learning CSS nor HTML.
 
 Clone the repo to your computer:
 
-    git clone https://www.github.com/santis19/santis19.github.io/
+    git clone https://www.github.com/santisoler/santisoler.github.io/
 
 Or download it from
-[here](https://github.com/santis19/santis19.github.io/archive/master.zip).
+[here](https://github.com/santisoler/santisoler.github.io/archive/master.zip).
 
 ### Install dependencies
 
@@ -39,7 +39,7 @@ If it's owned by root, run the following:
 
 Go to the cloned repo:
 
-    cd /path/to/santis19.github.io
+    cd /path/to/santisoler.github.io
 
 And run `bundle install` or use the Makefile targets:
 

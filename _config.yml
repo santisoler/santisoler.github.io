@@ -35,9 +35,9 @@ title                   : "Santiago Soler"
 title_separator         : "|"
 name                    : "Santiago Soler"
 description             : "My personal website"
-url                     : "https://santis19.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url                     : "https://santisoler.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl                 : "" # the subpath of your site, e.g. /blog
-repository              : "santis19/santis19.github.io"
+repository              : "santisoler/santisoler.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -126,7 +126,7 @@ author:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/santis19"
+      url: "https://github.com/santisoler"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "santiago.r.soler@gmail.com"
@@ -135,7 +135,7 @@ author:
       url: "https://orcid.org/0000-0001-9202-5317"
     #- label: "Website"
       #icon: "fas fa-fw fa-link"
-      #url: "https://santis19.github.io"
+      #url: "https://santisoler.github.io"
     #- label: "Twitter"
       #icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -151,7 +151,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/santis19"
+      url: "https://github.com/santisoler"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "santiago.r.soler@gmail.com"
@@ -160,7 +160,7 @@ footer:
       url: "https://orcid.org/0000-0001-9202-5317"
     #- label: "Website"
       #icon: "fas fa-fw fa-link"
-      #url: "https://santis19.github.io"
+      #url: "https://santisoler.github.io"
     #- label: "Twitter"
       #icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"

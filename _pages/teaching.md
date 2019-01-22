@@ -7,14 +7,14 @@ author_profile: true
 toc: false
 ---
 
-I currently teach Statistical Mechanics and Physics for Astronomy and 
+I currently teach Statistical Mechanics and Physics for Astronomy and
 Geophysics at the [Facultad de Ciencias Exactas, Físicas y Naturales][fcefn],
 [UNSJ][unsj].
 
 ## Elementos de Mecánica Estadística
 
-Microcanonical, Canonical and Macrocanonical ensembles, Quantum gases and 
-applications to physics and astronomy: vibrations in solids, paramagnetism, 
+Microcanonical, Canonical and Macrocanonical ensembles, Quantum gases and
+applications to physics and astronomy: vibrations in solids, paramagnetism,
 classical and quantum gases, white dwarfs.
 
   * Cargo: Jefe de Trabajos Prácticos
@@ -24,7 +24,7 @@ classical and quantum gases, white dwarfs.
   * Facultad de Ciencias Exactas, Físicas y Naturales
   * Universidad Nacional de San Juan
 
-[Go to Repository](https://santis19.github.io/mecanica-estadistica){: .btn .btn--primary}
+[Go to Repository](https://santisoler.github.io/mecanica-estadistica){: .btn .btn--primary}
 {: style="text-align: right;"}
 
 
@@ -40,16 +40,16 @@ classical and quantum gases, white dwarfs.
 
 ## Taller LaTeX
 
-Introductory course to LaTeX. How to install it, writing an article, adding 
-math, figures, tables, bibliography. Writing a Thesis: chapters, table of 
+Introductory course to LaTeX. How to install it, writing an article, adding
+math, figures, tables, bibliography. Writing a Thesis: chapters, table of
 contents. Building a BiBTeX database with JabRef.
 
 
-  * Organized by [Agustina Pesce](https://www.github.com/aguspesce) and [Santiago Soler](https://santis19.github.io/).
+  * Organized by [Agustina Pesce](https://www.github.com/aguspesce) and [Santiago Soler](https://santisoler.github.io/).
   * Facultad de Ciencias Exactas, Físicas y Naturales
   * Universidad Nacional de San Juan
 
-[Go to Repository](https://santis19.github.io/taller-latex){: .btn .btn--primary}
+[Go to Repository](https://santisoler.github.io/taller-latex){: .btn .btn--primary}
 {: style="text-align: right;"}
 
 
