@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Fatiando a Terra: Open-source tools for geophysics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.svg">
+
+
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="/css/normalize.css" />
+
+    <!-- Bootstrap Grid -->
+    <link rel="stylesheet" href="/css/bootstrap-grid.min.css" />
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="/css/fontawesome/css/all.css" />
+
+    <!-- Academicons -->
+    <link rel="stylesheet" href="/css/academicons/css/academicons.min.css" />
+
+    <!-- Custom style -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- Plausible -->
+    <script defer data-domain="santisoler.com" src="https://plausible.io/js/plausible.js"></script>
+
+  </head>
+
+  <body>
+
+
+<nav>
+    <div class="nav-burger container">
+        <a href="#" id="navBurger" title="Open navigation menu">
+            <i class="fas fa-bars"></i>
+        </a>
+    </div>
+    <ul id="navBar" class="container navbar">
+        <li class="nav-home"><a href="/">Home</a></li>
+        <li class="nav-item"><a href="/about.html">About me</a></li>
+        <li class="nav-item"><a href="/projects/">Projects</a></li>
+        <li class="nav-item"><a href="/publications/">Publications</a></li>
+        <li class="nav-item"><a href="/presentations/">Presentations</a></li>
+        <li class="nav-item"><a href="/teaching/">Teaching</a></li>
+    </ul>
+</nav>
+<main class="container">
+
+  <h1 class="title">Fatiando a Terra: Open-source tools for geophysics</h1>
+  <p class="authors"><a href=https://www.santisoler.com/><strong>Santiago R. Soler</strong></a> and <a href=https://lindseyjh.ca>Lindsey Heagy</a> (2023)</p>
+
+
+  <div class="row">
+    <div class="col-lg-3 order-lg-2 order-xl-2">
+  <h2>Info</h2>
+  <ul class="fa-ul"><li>
+        <i class="fa-li fas fa-university" title="Organizer"></i>
+        Organized by:
+        <a  href="https://www.kegsonline.org">Canadian Exploration Geophysical Society (KEGS)</a>
+    </li><li>
+        <i class="fa-li fas fa-code" title="Source code"></i>
+        Source code:
+        <a  href="https://www.github.com/fatiando/2023-kegs">fatiando/2023-kegs</a>
+    </li><li>
+        <i class="fa-li fas fa-balance-scale" title="License"></i>
+        <a  href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>
+    </li><li>
+        <i class="fa-li far fa-file" title="doi"></i>
+        doi:
+            <a href="https://doi.org/10.6084/m9.figshare.22151357">10.6084/m9.figshare.22151357</a>
+    </li>    </div>
+    <div class="col-lg-9 order-lg-1 order-xl-1">
+  <h2 id="about">About</h2>
+<p>The <a href="https://www.kegsonline.org">KEGS</a> 2023 Symposium is hosting a panel on
+Open-source Tools this year, which is an awesome opportunity to introduce
+<a href="https://www.fatiando.org">Fatiando</a> to the Canadian geophysical community.</p>
+<h2 id="watch-the-talk">Watch the talk</h2>
+<!-- Thumbnail of Youtube video -->
+
+<div class="ratio ratio-16x9">
+  <div class="yt" style='background-image: url("/images/2023-kegs-slide.jpg")'>
+    <a
+      href="https://www.youtube.com/watch?v=H0EaWOgV9xg"
+      aria-label="Watch on YouTube"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div class="play-button">
+        <img src="/assets/play.svg">
+      </div>
+    </a>
+    <a
+      href="https://www.youtube.com/watch?v=H0EaWOgV9xg"
+      aria-label="Watch on YouTube"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div class="watch-on-yt">
+        <div aria-hidden="true">Watch on</div>
+        <div><img src="/assets/yt-logo.svg" alt="YouTube logo"></div>
+      </div>
+    </a>
+  </div>
+</div>
+
+<h2 id="slides">Slides</h2>
+<p><a href="https://doi.org/10.6084/m9.figshare.22151357"><img alt="Slides for KEGS 2023" src="/images/2023-kegs-slide.jpg" /></a></p>
+<p>Slides: <a href="https://doi.org/10.6084/m9.figshare.22151357">10.6084/m9.figshare.22151357</a></p>
+<h2 id="abstract">Abstract</h2>
+<p>The Fatiando a Terra project (https://www.fatiando.org) is a collection of
+open-source Python libraries for geophysics that covers a wide range of
+functionalities, from data download and processing to modelling and inversion.
+Each one of the libraries in the project was designed with their own
+scope of applications.</p>
+<p>Harmonica is focused on processing and modelling gravity and
+magnetic data. It provides tools for gravity corrections like Bouguer and
+terrain effects; interpolations and upward continuation through equivalent
+sources; Fourier domain filters like vertical derivatives, upward continuation
+and reduction to the pole; forward modelling of geometries like prisms, point
+sources and tesseroids (a.k.a spherical prisms); and more.
+Boule hosts reference ellipsoids useful for applying coordinate
+conversions and normal gravity calculations.
+Verde offers tools for processing and interpolating any type of spatial data
+through a diverse set of methods, with a machine learning inspired approach.
+Pooch eases the process of downloading and caching data from the web with
+a very simple interface. Lastly, Ensaio offers a set of curated open-licensed
+datasets useful for teaching, practicing and probing our codes.</p>
+<p>The project started in 2010 in South America as a simple Python library as part
+of a PhD Thesis, and has since growth to include a global community of
+contributors. Its progress has been facilitated by a consistent effort of
+meeting the highest standards in software development. Through the adoption of
+best practices and a thoughtful design of its tools, the project provides well
+tested and well documented code that is easy to use, regardless of the Python
+skills of its users. This has led the project to be used in real world
+applications like scientific research and geophysical exploration within
+industry and academia.</p>
+<p>During this talk we'll provide an overview of the tools in the Fatiando
+project, demonstrate their functionalities using examples from research and
+industry applications, and take a look at some code snippets to showcase its
+capabilities and ease of use.
+We will also take the opportunity to discuss upcoming developments, our roadmap
+for the future and plans for implementing highly requested features.</p>
+<h2 id="extended-abstract">Extended abstract</h2>
+<p><a href="https://github.com/fatiando/2023-kegs/tree/main/extended-abstract">Read the extended abstract</a></p>
+    </div>
+  </div>
+
+      <ul class="pager"><li class="previous">
+                <a href="/presentations/2023-pycascades.html">&larr; Pooch: a friend to fetch your data files</a>
+            </li><li class="next">
+                <a href="/presentations/2022-ubc-open-house.html">Presentation at UBC-GIF Open House 2022 &rarr;</a>
+            </li></ul>
+</main>
+
+<!--Footer-->
+<footer>
+  <div class="container">
+    <p class="text-center text-muted">
+      Source code available at
+      <a href="https://www.github.com/santisoler/website"
+        >santisoler/website</a
+      >. Built using <a href="http://urubu.jandecaluwe.com">Urubu</a> and
+      <a href="http://getbootstrap.com">Bootstrap Grid</a> with
+      <a href="https://fontawesome.com">Font Awesome</a>
+      and <a href="https://jpswalsh.github.io/academicons/">Academicons</a>.
+      <br />
+      All content is under the
+      <a href="https://creativecommons.org/licenses/by/4.0/"
+        >Creative Commons Attribution 4.0 International License</a
+      >, except were noted.
+      <br />
+      This website keeps track of number of visitors using
+      <a href="https://plausible.io/">Plausible</a>, an open-source web
+      analytics that respects your privacy.
+    </p>
+  </div>
+</footer>
+
+  </body>
+
+  <script src="/script.js"></script>
+</html>
