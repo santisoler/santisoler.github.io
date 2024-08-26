@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>A better strategy for interpolating gravity and magnetic data</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.svg">
+
+
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="/css/normalize.css" />
+
+    <!-- Bootstrap Grid -->
+    <link rel="stylesheet" href="/css/bootstrap-grid.min.css" />
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="/css/fontawesome/css/all.css" />
+
+    <!-- Academicons -->
+    <link rel="stylesheet" href="/css/academicons/css/academicons.min.css" />
+
+    <!-- Custom style -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- Plausible -->
+    <script defer data-domain="santisoler.com" src="https://plausible.io/js/plausible.js"></script>
+
+  </head>
+
+  <body>
+
+
+<nav>
+    <div class="nav-burger container">
+        <a href="#" id="navBurger" title="Open navigation menu">
+            <i class="fas fa-bars"></i>
+        </a>
+    </div>
+    <ul id="navBar" class="container navbar">
+        <li class="nav-home"><a href="/">Home</a></li>
+        <li class="nav-item"><a href="/about.html">About me</a></li>
+        <li class="nav-item"><a href="/projects/">Projects</a></li>
+        <li class="nav-item"><a href="/publications/">Publications</a></li>
+        <li class="nav-item"><a href="/presentations/">Presentations</a></li>
+        <li class="nav-item"><a href="/teaching/">Teaching</a></li>
+    </ul>
+</nav>
+<main class="container">
+
+  <h1 class="title">A better strategy for interpolating gravity and magnetic data</h1>
+  <p class="authors"><a href=https://www.santisoler.com/><strong>Santiago R. Soler</strong></a> and <a href=https://www.leouieda.com/>Leonardo Uieda</a> (2020)</p>
+
+
+  <div class="row">
+    <div class="col-lg-3 order-lg-2 order-xl-2">
+  <h2>Info</h2>
+  <ul class="fa-ul"><li>
+        <i class="fa-li fas fa-users" title="Meeting"></i>
+        Presented at:
+        <a  href="https://egu2020.eu/">EGU General Assembly 2020</a>
+    </li><li>
+        <i class="fa-li fas fa-balance-scale" title="License"></i>
+        <a  href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>
+    </li><li>
+        <i class="fa-li far fa-file" title="doi"></i>
+        doi:
+            <a href="https://doi.org/10.6084/m9.figshare.12217973">10.6084/m9.figshare.12217973</a>
+    </li>    </div>
+    <div class="col-lg-9 order-lg-1 order-xl-1">
+  <h2 id="slides">Slides</h2>
+<iframe class="pdf" src="/pdf/egu2020.pdf" width="100%" height="500px">
+</iframe>
+
+<h2 id="abstract">Abstract</h2>
+<p>We present a new strategy for defining the location of point sources when
+applying the equivalent sources technique (EQL) for interpolating gravity and
+magnetic data. It consist in reducing the number of sources while keeping the
+same accuracy when compared with similar EQL methods. It also reduces the
+computation time and memory requirements, both of which have been severe
+limiting factors.</p>
+<p>The equivalent layer technique (also known as equivalent source, radial basis
+functions, or Green's functions interpolation) is used to predict the value of
+gravity and magnetic fields (or transformations thereof) at any point based on
+the data gathered on some observation points. It consists in estimating
+a source distribution that produces the same field as the one measured and
+using this estimate to predict new values. It generally outperforms other
+general-purpose 2D interpolators, like the minimum curvature or bi-harmonic
+splines, because it takes into account the height of measurements and the fact
+that these fields are harmonic functions. Nevertheless, defining a layout for
+the source distribution used by the EQL is not trivial and plays an important
+role in the quality of the predictions.</p>
+<p>The most widely used source distributions are: (a) a regular grid of point
+sources and (b) one point source beneath each observation point. We propose
+a new source distribution: (c) divide the area into blocks, calculate the
+average location of observation points inside each block, and place one point
+source beneath each average location. This produces a smaller number of point
+sources in comparison with the other source distributions, effectively reducing
+the computational load. Traditionally, the source points are located: (i) all
+at the same depth or (ii) each source point at a constant relative depth
+beneath its corresponding observation point. Besides these two, we also
+considered (iii) a variable depth for each source point proportional
+to the median distance to its nearest neighbours. The combination of source
+distributions and depth configurations leads to seven different source layouts
+(the regular grid is only compatible with the constant depth configuration).</p>
+<p>We have scored the performance of each configuration by interpolating synthetic
+ground and airborne gravity data, and comparing the interpolation against the
+true values of the model. The block-averaged source layout (c) with variable
+relative depth (iii) produces accurate interpolation results when compared to
+the other two, but reducing the computation time and memory requirements.
+These results are consistent between ground and airborne survey layouts. Our
+conclusions can be extrapolated to other applications of equivalent layers,
+such as upward continuation, reduction-to-the-pole, and derivative calculation.
+What is more, we expect that these optimizations can benefit similar spatial
+prediction problems beyond gravity and magnetic data.</p>
+<p>The source code developed for this study is based on the EQL implementation
+available in Harmonica
+(<a href="https://www.fatiando.org/harmonica">fatiando.org/harmonica</a>), an open-source
+Python library for modelling and processing gravity and magnetic data.</p>
+    </div>
+  </div>
+
+      <ul class="pager"><li class="previous">
+                <a href="/presentations/git-intro-geolatinas.html">&larr; Introducción a Git</a>
+            </li><li class="next">
+                <a href="/presentations/tacc2019.html">Experiencias en el desarrollo de Fatiando a Terra &rarr;</a>
+            </li></ul>
+</main>
+
+<!--Footer-->
+<footer>
+  <div class="container">
+    <p class="text-center text-muted">
+      Source code available at
+      <a href="https://www.github.com/santisoler/website"
+        >santisoler/website</a
+      >. Built using <a href="http://urubu.jandecaluwe.com">Urubu</a> and
+      <a href="http://getbootstrap.com">Bootstrap Grid</a> with
+      <a href="https://fontawesome.com">Font Awesome</a>
+      and <a href="https://jpswalsh.github.io/academicons/">Academicons</a>.
+      <br />
+      All content is under the
+      <a href="https://creativecommons.org/licenses/by/4.0/"
+        >Creative Commons Attribution 4.0 International License</a
+      >, except were noted.
+      <br />
+      This website keeps track of number of visitors using
+      <a href="https://plausible.io/">Plausible</a>, an open-source web
+      analytics that respects your privacy.
+    </p>
+  </div>
+</footer>
+
+  </body>
+
+  <script src="/script.js"></script>
+</html>
