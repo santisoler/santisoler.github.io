@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Experiencias en el desarrollo de Fatiando a Terra</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.svg">
+
+
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="/css/normalize.css" />
+
+    <!-- Bootstrap Grid -->
+    <link rel="stylesheet" href="/css/bootstrap-grid.min.css" />
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="/css/fontawesome/css/all.css" />
+
+    <!-- Academicons -->
+    <link rel="stylesheet" href="/css/academicons/css/academicons.min.css" />
+
+    <!-- Custom style -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- Plausible -->
+    <script defer data-domain="santisoler.com" src="https://plausible.io/js/plausible.js"></script>
+
+  </head>
+
+  <body>
+
+
+<nav>
+    <div class="nav-burger container">
+        <a href="#" id="navBurger" title="Open navigation menu">
+            <i class="fas fa-bars"></i>
+        </a>
+    </div>
+    <ul id="navBar" class="container navbar">
+        <li class="nav-home"><a href="/">Home</a></li>
+        <li class="nav-item"><a href="/about.html">About me</a></li>
+        <li class="nav-item"><a href="/projects/">Projects</a></li>
+        <li class="nav-item"><a href="/publications/">Publications</a></li>
+        <li class="nav-item"><a href="/presentations/">Presentations</a></li>
+        <li class="nav-item"><a href="/teaching/">Teaching</a></li>
+    </ul>
+</nav>
+<main class="container">
+
+  <h1 class="title">Experiencias en el desarrollo de Fatiando a Terra</h1>
+  <p class="authors"><a href=https://www.santisoler.com/><strong>Santiago R. Soler</strong></a> (2019)</p>
+
+
+  <div class="row">
+    <div class="col-lg-3 order-lg-2 order-xl-2">
+  <h2>Info</h2>
+  <ul class="fa-ul"><li>
+        <i class="fa-li fas fa-users" title="Meeting"></i>
+        Presented at:
+        <a  href="https://tallerargentinocc.github.io/">Taller Argentino de Computación Científica</a>
+    </li><li>
+        <i class="fa-li fas fa-balance-scale" title="License"></i>
+        <a  href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>
+    </li><li>
+        <i class="fa-li far fa-file" title="doi"></i>
+        doi:
+            <a href="https://doi.org/10.6084/m9.figshare.10013006">10.6084/m9.figshare.10013006</a>
+    </li>    </div>
+    <div class="col-lg-9 order-lg-1 order-xl-1">
+  <h2 id="slides">Slides</h2>
+<iframe class="pdf" src="/pdf/tacc2019.pdf" width="100%" height="500px">
+</iframe>
+
+<h2 id="abstract">Abstract</h2>
+<p>Las Ciencias de la Tierra buscan responder preguntas acerca de la estructura y procesos
+que se dan dentro del planeta Tierra. Los problemas a resolver dentro de estas
+disciplinas son cada vez más complejos: disponemos de cada vez mayores cantidades de
+datos, requieren colaboraciones multidisciplinarias e involucran algoritmos de
+resolución cada vez más complejos. Actualmente existen en el mercado muchos Software
+privativos que ofrecen soluciones a estos problemas, principalmente diseñados para la
+industria. Sin embargo existen proyectos de código abierto que datan desde hace muchas
+décadas, tales como Seismic Unix (~70s), GMT (1988), TauP (1999), QGIS (2002),
+Madagascar (2006), entre otros. En estos últimos años la cantidad de Software de código
+abierto en geociencias ha aumentado considerablemente: Obspy, Fatiando a Terra, SimPeg,
+PyGMI, pyGIMLi, GPlates, Bruges, PyRocko, por nombrar algunos. La mayoría de estos
+proyectos poseen como principal objetivo construir herramientas que puedan ayudar
+a otres colegas a resolver sus propios problemas, recibir colaboraciones de otres
+científiques y ayudar a garantizar la reproducibilidad en las publicaciones científicas.
+Una característica particular de estos proyectos es que la mayoría son desarrollados de
+manera comunitaria principalmente por les mismes científiques que los utilizan. Esto
+hace al desarrollo de Software una de las tareas cotidianas de científiques que no
+necesariamente poseemos amplios conocimientos en las Ciencias de la Computación.</p>
+<p>Como Licenciado en Física y actualmente doctorando en Geofísica, participo como
+desarrollador de Fatiando a Terra, donde he tenido la oportunidad de aprender a utilizar
+herramientas computacionales tanto para resolver los problemas científicos en particular
+así como para colaborar al mantenimiento y desarrollo de las librerías pertenecientes al
+proyecto. El objetivo de esta Charla es incentivar a otres científiques que se
+encuentren desarrollando librerías abiertas, o deseen hacerlo, a adoptar algunas de las
+prácticas y herramientas que utilizamos dentro de Fatiando a Terra, exponiendo
+experiencias personales junto con ventajas y desventajas de cada una de estas prácticas
+y herramientas.</p>
+<p>Dentro de estas prácticas podemos encontrar la utilización de un controlador de
+versiones (git), el almacenamiento del código en una plataforma que permite gestionar
+Issues y Pull Requests, la incorporación de nuevas características basadas en código
+bien escrito, documentado y con funciones de testeo, además de añadir ejemplos de uso de
+las nuevas características cuando sea posible. Además, existen muchas prácticas que
+facilitan el trabajo cotidiano y eleva la calidad de nuestro proyecto, como solicitar
+que nuestres colegas revisen nuestro código antes de ser incorporados a la rama
+principal del proyecto, utilizar estilos de escritura estandarizados, mantener un
+historial ordenado dentro del controlador de versiones, entre otras.</p>
+<p>Muchas de las tareas involucradas en estas prácticas son repetitivas y fácil de olvidar.
+Para ello hacemos uso de bots y servicios de Continuous Integration (integración
+continua), los cuales ejecutan estas tareas de manera automatizada. Por ejemplo, a la
+hora de incorporar un cambio en nuestro código, los servicios de Continuous Integration
+ejecutan las funciones de testeo y reportan sus resultados, lo cual permite asegurarnos
+si esta nueva modificación introduce algún tipo de error al código preexistente. Otra
+tarea que resulta muy útil automatizar es la construcción de la documentación: una vez
+que algún cambio es incorporado a la rama principal del proyecto, los servicios se
+encargan de compilarla incluyendo los últimos cambios y luego publicarla para que se
+encuentre accesible a los usuarios.</p>
+<p>Además, deseo exponer cómo el desarrollo de librerías de código abierto mejora el avance
+de la Ciencia a partir de experiencias personales. Este tipo de proyectos se
+caracterizan por facilitar el intercambio de conocimiento, incentivar la colaboración
+entre científiques, ahorran esfuerzos e incluso permiten la creación de Journals
+específicos para Software abierto, por ejemplo el Journal of Open Source Software
+(JOSS), que introducen una forma muy eficiente y novedosa de realizar revisión por
+pares.</p>
+<p>Finalmente, deseo que mi experiencia personal pueda serle útil a otres científiques que
+se encuentren desarrollando proyectos de código abierto en su área de conocimiento
+e incentivar a aquelles que deseen comenzar a hacerlo. De igual forma, espero poder
+recibir consejos y mayor información proveniente de les colegas que posean experiencia
+en el desarrollo de este tipo de proyectos, a fin de mejorar el flujo de trabajo que
+poseemos dentro de Fatiando a Terra. En resumen, favorecer el intercambio de
+experiencias dentro de la audiencia con el fin de ampliar el universo de proyectos de
+código abierto dentro de la Ciencia.</p>
+    </div>
+  </div>
+
+      <ul class="pager"><li class="previous">
+                <a href="/presentations/egu2020.html">&larr; A better strategy for interpolating gravity and ma...</a>
+            </li><li class="next">
+                <a href="/presentations/lapis2019.html">Gravitational field of tesseroids with variable de... &rarr;</a>
+            </li></ul>
+</main>
+
+<!--Footer-->
+<footer>
+  <div class="container">
+    <p class="text-center text-muted">
+      Source code available at
+      <a href="https://www.github.com/santisoler/website"
+        >santisoler/website</a
+      >. Built using <a href="http://urubu.jandecaluwe.com">Urubu</a> and
+      <a href="http://getbootstrap.com">Bootstrap Grid</a> with
+      <a href="https://fontawesome.com">Font Awesome</a>
+      and <a href="https://jpswalsh.github.io/academicons/">Academicons</a>.
+      <br />
+      All content is under the
+      <a href="https://creativecommons.org/licenses/by/4.0/"
+        >Creative Commons Attribution 4.0 International License</a
+      >, except were noted.
+      <br />
+      This website keeps track of number of visitors using
+      <a href="https://plausible.io/">Plausible</a>, an open-source web
+      analytics that respects your privacy.
+    </p>
+  </div>
+</footer>
+
+  </body>
+
+  <script src="/script.js"></script>
+</html>
