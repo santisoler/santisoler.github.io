@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Fatiando a Terra: Open-source tools for geophysics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.svg">
+
+
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="/css/normalize.css" />
+
+    <!-- Bootstrap Grid -->
+    <link rel="stylesheet" href="/css/bootstrap-grid.min.css" />
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="/css/fontawesome/css/all.css" />
+
+    <!-- Academicons -->
+    <link rel="stylesheet" href="/css/academicons/css/academicons.min.css" />
+
+    <!-- Custom style -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- Plausible -->
+    <script defer data-domain="santisoler.com" src="https://plausible.io/js/plausible.js"></script>
+
+  </head>
+
+  <body>
+
+
+<nav>
+    <div class="nav-burger container">
+        <a href="#" id="navBurger" title="Open navigation menu">
+            <i class="fas fa-bars"></i>
+        </a>
+    </div>
+    <ul id="navBar" class="container navbar">
+        <li class="nav-home"><a href="/">Home</a></li>
+        <li class="nav-item"><a href="/about.html">About me</a></li>
+        <li class="nav-item"><a href="/projects/">Projects</a></li>
+        <li class="nav-item"><a href="/publications/">Publications</a></li>
+        <li class="nav-item"><a href="/presentations/">Presentations</a></li>
+        <li class="nav-item"><a href="/teaching/">Teaching</a></li>
+    </ul>
+</nav>
+<main class="container">
+
+  <h1 class="title">Fatiando a Terra: Open-source tools for geophysics</h1>
+  <p class="authors"><a href=https://www.leouieda.com/>Leonardo Uieda</a>, <a href=https://www.santisoler.com/><strong>Santiago R. Soler</strong></a> and <a href=https://aguspesce.github.io>Agustina Pesce</a> (2021)</p>
+
+
+  <div class="row">
+    <div class="col-lg-3 order-lg-2 order-xl-2">
+  <h2>Info</h2>
+  <ul class="fa-ul"><li>
+        <i class="fa-li fas fa-university" title="Organizer"></i>
+        Organized by:
+        <a  href="https://www.gshtx.org/">Geophysical Society of Houston</a>
+    </li><li>
+        <i class="fa-li fas fa-code" title="Source code"></i>
+        Source code:
+        <a  href="https://github.com/fatiando/2021-gsh">fatiando/2021-gsh</a>
+    </li><li>
+        <i class="fa-li fas fa-balance-scale" title="License"></i>
+        <a  href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>
+    </li>    </div>
+    <div class="col-lg-9 order-lg-1 order-xl-1">
+  <h2 id="abstract">Abstract</h2>
+<p>The <a href="https://www.fatiando.org">Fatiando a Terra</a> project is a collection of
+open-source Python libraries for geophysics which cover a range of
+functionalities, from data download and processing to modeling and inversion.
+In this opportunity we will present the two libraries that are focused on
+potential fields: Harmonica and Boule. Boule implements reference ellipsoids
+(including oblate ellipsoids, spheres, and soon triaxial ellipsoids),
+conversions between ellipsoidal and geocentric spherical coordinates, and
+normal gravity calculations. The latter are performed using analytical
+expressions for gravity fields at any point outside of the ellipsoid. Harmonica
+provides tools for processing, forward modelling, and inversion of gravity and
+magnetic data. We will demonstrate its use to compute Bouguer gravity
+disturbances by forward modelling the topography with prisms, removing a 2nd
+order regional trend, and interpolating it onto a regular grid at a constant
+height using the equivalent layer technique. Both libraries are still evolving
+as we continue to refine their goals and scopes. We invite everyone to get
+involved in the development, whether it's through coding, writing
+documentation, or giving feedback.</p>
+<h2 id="slides">Slides</h2>
+<p><a href="https://www.fatiando.org/2021-gsh"><img alt="Slides of &quot;Fatiando a Terra: Open-source tools for
+geophysics&quot;" src="/images/gsh-2021.jpg" /></a></p>
+<p>Slides: <a href="https://www.fatiando.org/2021-gsh">www.fatiando.org/2021-gsh</a></p>
+<h2 id="live-coding-notebook">Live-coding notebook</h2>
+<p>During the presentation we gave a small demo with live coding following a
+<a href="https://mybinder.org/v2/gh/fatiando/2021-gsh/HEAD?filepath=demo.ipynb">notebook for processing gravity data with Fatiando tools</a>.</p>
+    </div>
+  </div>
+
+      <ul class="pager"><li class="previous">
+                <a href="/presentations/iag-usp-2022.html">&larr; Empowering science with open-source software</a>
+            </li><li class="next">
+                <a href="/presentations/egu21.html">Gradient-boosted equivalent sources for gridding l... &rarr;</a>
+            </li></ul>
+</main>
+
+<!--Footer-->
+<footer>
+  <div class="container">
+    <p class="text-center text-muted">
+      Source code available at
+      <a href="https://www.github.com/santisoler/website"
+        >santisoler/website</a
+      >. Built using <a href="http://urubu.jandecaluwe.com">Urubu</a> and
+      <a href="http://getbootstrap.com">Bootstrap Grid</a> with
+      <a href="https://fontawesome.com">Font Awesome</a>
+      and <a href="https://jpswalsh.github.io/academicons/">Academicons</a>.
+      <br />
+      All content is under the
+      <a href="https://creativecommons.org/licenses/by/4.0/"
+        >Creative Commons Attribution 4.0 International License</a
+      >, except were noted.
+      <br />
+      This website keeps track of number of visitors using
+      <a href="https://plausible.io/">Plausible</a>, an open-source web
+      analytics that respects your privacy.
+    </p>
+  </div>
+</footer>
+
+  </body>
+
+  <script src="/script.js"></script>
+</html>

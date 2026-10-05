@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pooch: A friend to fetch your data files</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.svg">
+
+
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="/css/normalize.css" />
+
+    <!-- Bootstrap Grid -->
+    <link rel="stylesheet" href="/css/bootstrap-grid.min.css" />
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="/css/fontawesome/css/all.css" />
+
+    <!-- Academicons -->
+    <link rel="stylesheet" href="/css/academicons/css/academicons.min.css" />
+
+    <!-- Custom style -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- Plausible -->
+    <script defer data-domain="santisoler.com" src="https://plausible.io/js/plausible.js"></script>
+
+  </head>
+
+  <body>
+
+
+<nav>
+    <div class="nav-burger container">
+        <a href="#" id="navBurger" title="Open navigation menu">
+            <i class="fas fa-bars"></i>
+        </a>
+    </div>
+    <ul id="navBar" class="container navbar">
+        <li class="nav-home"><a href="/">Home</a></li>
+        <li class="nav-item"><a href="/about.html">About me</a></li>
+        <li class="nav-item"><a href="/projects/">Projects</a></li>
+        <li class="nav-item"><a href="/publications/">Publications</a></li>
+        <li class="nav-item"><a href="/presentations/">Presentations</a></li>
+        <li class="nav-item"><a href="/teaching/">Teaching</a></li>
+    </ul>
+</nav>
+<main class="container">
+
+  <h1 class="title">Pooch: A friend to fetch your data files</h1>
+  <p class="authors"><a href=https://www.leouieda.com/>Leonardo Uieda</a>, <a href=https://www.santisoler.com/><strong>Santiago R. Soler</strong></a>, <a href=https://github.com/remram44>Rémi Rampin</a>, <a href=https://github.com/hugovk>Hugo van Kemenade</a>, <a href=https://github.com/matthewturk>Matthew Turk</a>, <a href=https://github.com/danshapero>Daniel Shapero</a>, <a href=https://github.com/andersy005>Anderson Banihirwe</a> and <a href=https://github.com/jrleeman>John Leeman</a> (2020)</p>
+
+
+  <div class="row">
+    <div class="col-lg-3 order-lg-2 order-xl-2">
+  <h2>Info</h2>
+  <ul class="fa-ul"><li>
+            <i
+                class="fa-li fas fa-book"
+                title="Journal"
+                aria-hidden="true"
+            ></i>
+            Journal:
+            <em><a  href="https://joss.theoj.org/">Journal of Open Source Software</a></em>
+        </li><li>
+            <i
+                class="fa-li far fa-file"
+                title="doi of version of record"
+                aria-hidden="true"
+            ></i>
+            Version of record:
+                <a href="https://doi.org/10.21105/joss.01943">10.21105/joss.01943</a>
+        </li><li>
+            <i
+                class="fa-li ai ai-open-access"
+                title="Open Access"
+                aria-hidden="true"
+            ></i>
+            Open Access
+        </li><li>
+            <i
+                class="fa-li fas fa-code"
+                title="Source code"
+                aria-hidden="true"
+            ></i>
+            Source code:
+            <a  href="https://github.com/fatiando/pooch">fatiando/pooch</a>
+        </li></ul>
+      <a class="button" href="https://doi.org/10.21105/joss.01943">
+          Download the article
+      </a>    </div>
+    <div class="col-lg-9 order-lg-1 order-xl-1">
+  <h2 id="abstract">Abstract</h2>
+<p>Scientific software is usually created to acquire, analyze, model, and
+visualize data. As such, many software libraries include sample datasets in
+their distributions for use in documentation, tests, benchmarks, and workshops.
+A common approach is to include smaller datasets in the GitHub repository
+directly and package them with the source and binary distributions (e.g.,
+scikit-learn and scikit-image do this). As data files increase in size, it
+becomes unfeasible to store them in GitHub repositories. Thus, larger datasets
+require writing code to download the files from a remote server to the user's
+computer. The same problem is faced by scientists using version control to
+manage their research projects. While downloading a data file over HTTPS can be
+done easily with modern Python libraries, it is not trivial to manage a set of
+files, keep them updated, and check for corruption. For example, scikit-learn,
+Cartopy, and PyVista all include code dedicated to this particular task.
+Instead of scientists and library authors recreating the same code, it would be
+best to have a minimalistic and easy to set up tool for fetching and
+maintaining data files.</p>
+<p>Pooch is a Python library that fills this gap. It manages a data <em>registry</em>
+(containing file names, SHA-256 cryptographic hashes, and download URLs) by
+downloading files from one or more remote servers and storing them in a local
+data cache. Pooch is written in pure Python and has minimal dependencies. It
+can be easily installed from the Python Package Index (PyPI) and conda-forge on
+a wide range of Python versions: 2.7 (up to Pooch 0.6.0) and from 3.5 to 3.8.</p><h2>How to cite</h2>
+  <p><p>Uieda, L., Soler, S.R., Rampin, R., van Kemenade, H., Turk, M., Shapero,
+D., Banihirwe, A., and Leeman, J. (2020). Pooch: A friend to fetch your
+data files. Journal of Open Source Software, 5(45), 1943.
+doi:10.21105/joss.01943</p></p>    </div>
+  </div>
+
+      <ul class="pager"><li class="previous">
+                <a href="/publications/eql-gradient-boosted.html">&larr; Gradient-boosted equivalent sources</a>
+            </li><li class="next">
+                <a href="/publications/tesseroid-variable-density.html">Gravitational field calculation in spherical coord... &rarr;</a>
+            </li></ul>
+</main>
+
+<!--Footer-->
+<footer>
+  <div class="container">
+    <p class="text-center text-muted">
+      Source code available at
+      <a href="https://www.github.com/santisoler/website"
+        >santisoler/website</a
+      >. Built using <a href="http://urubu.jandecaluwe.com">Urubu</a> and
+      <a href="http://getbootstrap.com">Bootstrap Grid</a> with
+      <a href="https://fontawesome.com">Font Awesome</a>
+      and <a href="https://jpswalsh.github.io/academicons/">Academicons</a>.
+      <br />
+      All content is under the
+      <a href="https://creativecommons.org/licenses/by/4.0/"
+        >Creative Commons Attribution 4.0 International License</a
+      >, except were noted.
+      <br />
+      This website keeps track of number of visitors using
+      <a href="https://plausible.io/">Plausible</a>, an open-source web
+      analytics that respects your privacy.
+    </p>
+  </div>
+</footer>
+
+  </body>
+
+  <script src="/script.js"></script>
+</html>
